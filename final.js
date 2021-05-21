@@ -132,7 +132,7 @@ function draw() {
 
     //1
     if (mouseX >= width / 8 && mouseX < width / 3.5 && mouseY > height / 8 && mouseY < height / 3) {
-        document.getElementById("fish1").style.left = "6vw";
+        document.getElementById("fish1").style.left = "8vw";
         if (!check[0]) {
             check[0] = true
             document.getElementById("fish1").src = document.getElementById("fish1").src
@@ -145,7 +145,7 @@ function draw() {
 
     //2
     if (mouseX >= width / 3.5 && mouseX < width / 1.8 && mouseY > height / 8 && mouseY < height / 3) {
-        document.getElementById("seaglass").style.left = "34vw";
+        document.getElementById("seaglass").style.left = "36vw";
         if (!check[1]) {
             check[1] = true
             document.getElementById("seaglass").src = document.getElementById("seaglass").src
@@ -159,7 +159,7 @@ function draw() {
 
     //3
     if (mouseX >= width / 1.4 && mouseX < width / 1.15 && mouseY > height / 8 && mouseY < height / 3) {
-        document.getElementById("whale").style.left = "66vw";
+        document.getElementById("whale").style.left = "68vw";
         if (!check[2]) {
             check[2] = true
             document.getElementById("whale").src = document.getElementById("whale").src
@@ -171,7 +171,7 @@ function draw() {
 
     //4
     if (mouseX >= width / 8 && mouseX < width / 3.5 && mouseY > height / 1.9 && mouseY < height / 1.3) {
-        document.getElementById("u").style.left = "6vw";
+        document.getElementById("u").style.left = "8vw";
         if (!check[3]) {
             check[3] = true
             document.getElementById("u").src = document.getElementById("u").src
@@ -183,7 +183,7 @@ function draw() {
 
     //5
     if (mouseX >= width / 3.5 && mouseX < width / 1.8 && mouseY > height / 1.9 && mouseY < height / 1.3) {
-        document.getElementById("fish2").style.left = "36vw";
+        document.getElementById("fish2").style.left = "38vw";
         if (!check[4]) {
             check[4] = true
             document.getElementById("fish2").src = document.getElementById("fish2").src
@@ -195,7 +195,7 @@ function draw() {
 
     //6
     if (mouseX >= width / 1.4 && mouseX < width / 1.15 && mouseY > height / 1.9 && mouseY < height / 1.3) {
-        document.getElementById("star").style.left = "66vw";
+        document.getElementById("star").style.left = "68vw";
         if (!check[5]) {
             check[5] = true
             document.getElementById("star").src = document.getElementById("star").src
