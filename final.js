@@ -16,7 +16,7 @@ let pos = 0;
 var check = [false, false, false, false, false, false];
 
 function preload() {
-    bg = loadImage('img/bg.png')
+    bg = loadImage('img/fuku.png')
     for (let i = 0; i < numw; i++) {
         imgw[i] = loadImage('animecode/water/water/w' + (i + 1) + '.png')
     }
@@ -39,9 +39,10 @@ function preload() {
 }
 
 function setup() {
-    createCanvas(windowWidth-15, windowHeight-15);
+    createCanvas(windowWidth-15, windowHeight-18);
     imageMode(CENTER);
-    document.getElementById("gg").style.left="85vw";
+    document.getElementById("gg").style.left="88vw";
+    bg.resize(windowWidth,windowHeight)
     for (let i = 0; i < numw; i++) {
         imgw[i].resize(windowWidth / 4, windowWidth / 4);
     }
@@ -69,9 +70,9 @@ let iw = 0,
     ik = 0;
 
 function draw() {
-    image(bg, 0, 0)
-    background(245);
 
+    background(245);
+    image(bg, width/2, height/2)
     frameRate(20)
 
     //water
@@ -145,7 +146,7 @@ function draw() {
 
     //2
     if (mouseX >= width / 3.5 && mouseX < width / 1.8 && mouseY > height / 8 && mouseY < height / 3) {
-        document.getElementById("seaglass").style.left = "36vw";
+        document.getElementById("seaglass").style.left = "38vw";
         if (!check[1]) {
             check[1] = true
             document.getElementById("seaglass").src = document.getElementById("seaglass").src
