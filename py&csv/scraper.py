@@ -1,5 +1,5 @@
 import time
-import json
+import csv
 import tweepy
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
@@ -13,40 +13,27 @@ auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
-tweet_dict={
-}
 
-tweet_dict['reply']=[]
-
-name = 'SecBlinken'
-tweet_id = '1381769108316954626'
-
+name = 'zlj517'
+tweet_id = '1386635238986510341'
 replies=[]
 startTime = time.time()
-with open('replie.json', 'w') as f:
-    # json_writer = json.DictWriter(f, fieldnames=('text'))
-    # json_writer.writeheader()
-    counter = 0
-    for tweet in tweepy.Cursor(api.search,q='to:'+name, result_type='mixed', timeout=999999).items(1000):
+with open('replies.csv', 'w') as f:
+    csv_writer = csv.DictWriter(f, fieldnames=('user', 'text'))
+    csv_writer.writeheader()
+    counter = 0 
+    for tweet in tweepy.Cursor(api.search,q='to:'+name, result_type='recent', timeout=999999).items(5000):
         counter += 1
         if hasattr(tweet, 'in_reply_to_status_id_str'):
             if (tweet.in_reply_to_status_id_str==tweet_id):
                 print(tweet.user.screen_name)
                 print(tweet.text)
-                tweet_dict["reply"].append({'reply':tweet.text.replace('\n', ' ')});
-                # row = {'user': tweet.user.screen_name, 'text': tweet.text.replace('\n', ' ')}
-                # csv_writer.writerow(row)
-                # replies.append(tweet)
-
-
+                row = {'user': tweet.user.screen_name, 'text': tweet.text.replace('\n', ' ')}
+                csv_writer.writerow(row)
+                replies.append(tweet)
         if (counter % 300 == 0):
             print("start sleeping")
             time.sleep(900)
             print("Wake up and continue")
-
-        if (counter==300):
-            json.dump(tweet_dict, f)
-
-            #, ensure_ascii=False
 
 
