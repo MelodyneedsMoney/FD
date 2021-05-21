@@ -41,7 +41,7 @@ function preload() {
 function setup() {
     createCanvas(windowWidth-15, windowHeight-18);
     imageMode(CENTER);
-    document.getElementById("gg").style.left="88vw";
+    document.getElementById("gg").style.left="85vw";
     bg.resize(windowWidth,windowHeight)
     for (let i = 0; i < numw; i++) {
         imgw[i].resize(windowWidth / 4, windowWidth / 4);
