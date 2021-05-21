@@ -4,9 +4,9 @@ body{
 #gg{
 display: block;
 position: absolute;
-top:82vh;
+top:88vh;
 left:-40vw;
-width:15vw;
+width:10vw;
 }
 #f1{
     display: block;
@@ -50,14 +50,60 @@ width:15vw;
     left:70vw;
     width:20vw;
 }
-#bac{
+
+a:hover{
+
+    color:rgb(136, 136, 136)
+}
+
+.footer{
     display: inline-block;
     position: absolute;
     font-family: Myriad;
-    top:90vh;
-    left:48vw;
+    bottom:-32vh;
+    left:43vw;
+    color: rgb(157, 157, 157);
+    font-size: 1vw;
+}
+
+.ab{
+    display: inline-block;
+    position: absolute;
+    font-family: Myriad;
+    top:20vh;
+    left:30vw;
     color: rgb(60, 60, 60);
-    font-size: 1.8vw;
+    font-size: 1.4vw;
+}
+
+
+.bac{
+    display: inline-block;
+    position: absolute;
+    font-family: Myriad;
+    top:20vh;
+    left:43vw;
+    color: rgb(60, 60, 60);
+    font-size: 1.4vw;
+}
+
+.res{
+    display: inline-block;
+    position: absolute;
+    font-family: Myriad;
+    top:20vh;
+    left:63vw;
+    color: rgb(60, 60, 60);
+    font-size: 1.4vw;
+}
+.gal{
+    display: inline-block;
+    position: absolute;
+    font-family: Myriad;
+    top:20vh;
+    left:53vw;
+    color: rgb(60, 60, 60);
+    font-size: 1.4vw;
 }
 
 #abo{
@@ -73,26 +119,24 @@ width:15vw;
     display: inline-block;
     position: absolute;
     top:3vh;
-    left:41vw;
+    left:40vw;
     font-family: Myriad;
     font-weight: bold;
     color: rgb(60, 60, 60);
     letter-spacing: 1vw;
     font-size: 3.6vw;
 }
-#about{
+.about{
     display: inline-block;
     position: absolute;
-    top:3vh;
-    left:26vw;
+    top:5vh;
+    left:22vw;
     font-family: Myriad;
     font-weight: bold;
     color: rgb(60, 60, 60);
     letter-spacing: 1vw;
-    font-size: 2.8vw;
+    font-size: 3.5vw;
 }
-
-
 
 
 
@@ -104,6 +148,8 @@ width:15vw;
     left:33vw;
     top:37vh;
     font-size: 3vw;
+    font-family: Myriad;
+    color: rgb(60, 60, 60);
 }
 
 #fish1{
