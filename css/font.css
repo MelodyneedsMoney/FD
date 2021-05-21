@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Myriad;
+    src: url("Myriad\ Web\ Pro\ Regular.ttf");
+  }
+
+ @font-face {
+    font-family: It;
+    src: url("Myriad\ Web\ Pro\ Italic.ttf");
+
+  }
+
+  .title{
+    top:5vh;
+    left:10vw;
+  position: absolute;
+  font-family: Myriad;
+  font-weight: bold;
+font-size: 5vh;
+letter-spacing: 0.5vh;
+
+  }
+
+  .list{
+
+font-size: 1.7vh;
+letter-spacing: 0.3vh;
+font-family: Myriad;
+
+  }
+
+  #info{
+    display: block;
+    font-weight:lighter;
+    font-size: 1vh;
+    letter-spacing: 0.2vh;
+    position: absolute;
+    font-family:Myriad;
+    top:14vh;
+    left:10vw;
+  }
+
+
+
+  #l1{
+    position: absolute;
+  top:30vh;
+  left:10vw;
+  }
+
+  #l2{
+  top:35vh;
+  position: absolute;
+  left:10vw;
+  }
+
+  #l3{
+    position: absolute;
+    top:40vh;
+    left:10vw;
+  }
+  #l4{
+    position: absolute;
+    top:45vh;
+    left:10vw;
+    }
+    #l5{
+      position: absolute;
+      top:50vh;
+      left:10vw;
+      }

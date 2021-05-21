@@ -1,0 +1,28 @@
+
+body{
+
+  background-color: rgb(244, 241, 236);
+  /* background-attachment:fixed; */
+  color:rgb(101, 101, 101);
+
+}
+
+.text{
+  position: absolute;
+  left:30vw;
+  top:22vh;
+}
+.text a{
+  font-size: 1.4vw;
+}
+
+a{
+
+  text-decoration: none;
+  color:rgb(132, 114, 142);
+}
+a:hover{
+  color:rgb(33, 33, 33);
+}
+
+

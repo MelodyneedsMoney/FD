@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(245,245,245);
+}
+#gg{
+display: block;
+position: absolute;
+top:82vh;
+left:-40vw;
+width:15vw;
+}
+#f1{
+    display: block;
+    position: absolute;
+    top:20vh;
+    left:10vw;
+    width:20vw;
+}
+#f2{
+    display: block;
+    position: absolute;
+    top:60vh;
+    left:40vw;
+    width:20vw;
+}
+#sea{
+    display: block;
+    position: absolute;
+    top:20vh;
+    left:40vw;
+    width:20vw;
+}
+#uu{
+    display: block;
+    position: absolute;
+    top:60vh;
+    left:10vw;
+    width:20vw;
+}
+#w{
+    display: block;
+    position: absolute;
+    top:20vh;
+    left:70vw;
+    width:20vw;
+}
+#s{
+    display: block;
+    position: absolute;
+    top:60vh;
+    left:70vw;
+    width:20vw;
+}
+#bac{
+    display: inline-block;
+    position: absolute;
+    font-family: Myriad;
+    top:90vh;
+    left:48vw;
+    color: rgb(60, 60, 60);
+    font-size: 1.8vw;
+}
+
+#abo{
+    display: inline-block;
+    position: absolute;
+    font-family: Myriad;
+    top:8vh;
+    left:80vw;
+    color: rgb(60, 60, 60);
+    font-size: 1.5vw;
+}
+#title{
+    display: inline-block;
+    position: absolute;
+    top:3vh;
+    left:41vw;
+    font-family: Myriad;
+    font-weight: bold;
+    color: rgb(60, 60, 60);
+    letter-spacing: 1vw;
+    font-size: 3.6vw;
+}
+#about{
+    display: inline-block;
+    position: absolute;
+    top:3vh;
+    left:26vw;
+    font-family: Myriad;
+    font-weight: bold;
+    color: rgb(60, 60, 60);
+    letter-spacing: 1vw;
+    font-size: 2.8vw;
+}
+
+
+
+
+
+
+
+#p5_loading{
+    position:absolute;
+    display:inline-block;
+    left:33vw;
+    top:37vh;
+    font-size: 3vw;
+}
+
+#fish1{
+
+position: absolute;
+left:-50vw;
+}
+#fish2{
+
+    position: absolute;
+    top:43vh;
+    left:-50vw;
+    }
+    #seaglass{
+
+        position: absolute;
+        left:-50vw;
+        }
+#u{
+
+position: absolute;
+left:-50vw;
+top:43vh;
+}
+
+
+            #whale{
+
+                position: absolute;
+                left:-50vw;
+                }
+                #star{
+                    top:43vh;
+                    position: absolute;
+                    left:-50vw;
+                    }

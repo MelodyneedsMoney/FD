@@ -1,0 +1,45 @@
+
+p{
+    font-size: 1.2vw;
+    width:50vw;
+}
+
+#python{
+    /* position: absolute; */
+    top:30vh;
+
+    height:50vh;
+
+}
+
+#json{
+    /* position: absolute; */
+    top:60vh;
+    left:30vw;
+    height:50vh;
+
+}
+
+#test{
+    /* position: absolute; */
+    top:10vh;
+
+    height:30vh;
+
+}
+
+#sketch{
+    /* position: absolute; */
+    top:30vh;
+    left:10vw;
+    height:40vh;
+
+}
+
+.scrape{
+    /* position: absolute; */
+    top:40vh;
+    left:10vw;
+
+}
+
