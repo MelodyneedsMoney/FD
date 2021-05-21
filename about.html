@@ -14,6 +14,7 @@
 
   <style>
       h3{
+        font-family: Myriad;
           color:rgb(60, 60, 60);
       }
       a{
@@ -25,7 +26,7 @@
           display: block;
           position: absolute;
     font-family: Myriad;
-    top:30vh;
+    top:40vh;
     left:23.2vw;
     line-height:4vh;
     color: rgb(60, 60, 60);
@@ -37,8 +38,15 @@
           display: block;
           position: absolute;
           width:70vw;
-          top:10vh;
+          top:0vh;
           left:30vw;
+      }
+      #ar{
+          display: block;
+          position: absolute;
+
+          top:30vh;
+          left:23.2vw;
       }
   </style>
 </head>
@@ -48,7 +56,15 @@
     <img id="ball" src="img/ball.png">
 
     <h2 class="about">Fukushima Discrepancy</h2>
+
+    <div id="ar">
+      <h3>Melody Mou</h3>
+      <h3><span style="font-family: It;">2021, Code/Animation</span></h3>
+
+    </div>
 <p class="p1">
+
+
     <span style="font-family: It;"> Fukushima Discrepancy  </span>is a project about the dynamic relationship amongst the media news, the public discussion,
     and  the  event of Japan Fukushima treated water.
     An absurd and playful way of presentation is designed in this project to display how this trending environment topic is changing in the public.
@@ -56,19 +72,17 @@
     The unpredictable damage to individual sea creatures may be similar to the tsunami in 2011 to the human being.
     <br><br>
     The original data is scraped from the comments under different news on Twitter.
-    Sentimental analysis is applied to process the comments to find the potential offset among the news, the public reflection, and the event.
-    Through the analysis of each set of replies, the gathered comments turn into the parameters of the sketches.
+    Sentimental analysis is applied to process the replies to datalize the potential offset among the news, the public reflection and the event.
+    Through the analysis of each set of comments, the gathered comments turn into the parameters of the sketches.
     The visualization of data imagines the unpredictable mutation on the individual.
-    Each marine creature is selected carefully based on the scientific reports and corresponded to the location of the media.
-    The generative process focuses on the possible mutation according to mitochondrial DNA from related research.
-    The process of the mutation of the hand-drawn style marine creatures can be seen when the mouse moves to the animations, which include underlying meanings related to the nuclear-treated water event.
+    The process of the mutation of the hand-drawn style marine creatures can be seen when the mouse moves to the animations, which include underlying meanings related to the nuclear treated water event.
     Fukushima Discrepancy has a gallery to collect all the mutant creatures links to the original Twitter news pages.
     <br><br>
-    This project uses the python crawler to collect the initial comments under the news. Twitter API (standard version) can only catch data within seven days, but the news was posted several weeks ago.
-    Therefore, it utilizes the BeautifulSoup library to scrape the specific span tag.
-    The sentimental analysis uses Amazon Comprehend API to detect sentiment, which returns the scores of mixed,
-    negative, positive, and neutral values for each comment.
-    To achieve the hand-drawn style sketch, laborious drawing was generated in P5.JS. The processed data in the JSON file is the input, influencing the mutation.
+    This project uses python crawler to collect the inital comments under the news. Twitter API (standard version) can only catch data within seven days, but the news was posted several weeks ago.
+    Therefore, Fukushima Discrepancy utilizes BeautifulSoup library to scrape the specific span tag.
+    Sentimental analysis uses Amazon Comprehend API to detect sentiment, which returns the scores of mixed,
+    negative, positive and neutral values for each comment.
+    To achieve the hand-drawn style sketch, laborious drawing was used in P5.JS. The processed data in JSON file is the input, influencing the mutation.
     The artist tries to explore the possibility of combining illustration and computer art, as well as the non-abstract art in creative coding.
     <br><br>
     <br><br>
