@@ -60,7 +60,7 @@ a:hover{
     display: inline-block;
     position: absolute;
     font-family: Myriad;
-    bottom:-48vh;
+    bottom:-42vh;
     left:43vw;
     color: rgb(157, 157, 157);
     font-size: 1vw;
@@ -129,8 +129,8 @@ a:hover{
 .about{
     display: inline-block;
     position: absolute;
-    top:5vh;
-    left:22vw;
+    top:3vh;
+    left:28vw;
     font-family: Myriad;
     font-weight: bold;
     color: rgb(60, 60, 60);
@@ -145,7 +145,7 @@ a:hover{
 #p5_loading{
     position:absolute;
     display:inline-block;
-    left:33vw;
+    left:35vw;
     top:37vh;
     font-size: 3vw;
     font-family: Myriad;
