@@ -58,10 +58,12 @@ a:hover{
 
 .footer{
     display: inline-block;
-    position: absolute;
+      position: fixed;
+   left: 0;
+   bottom: 0;
     font-family: Myriad;
-    button:-35vh;
-    left:43vw;
+/*     button:-35vh;
+    left:43vw; */
     color: rgb(157, 157, 157);
     font-size: 1vw;
 }
